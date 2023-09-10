@@ -1,0 +1,90 @@
+li a{
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color:#DAC0A3;
+    font-family: 'Press Start 2P';
+    border-radius: 15%;
+}
+a{
+    display: block; 
+    background-color:rgba(77, 76, 76, 0.986);
+}
+#logo {
+    width: 150px;
+    left:50px;
+    position: absolute;
+}
+#link-main {
+    display:contents;
+    background-color:none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text-blocks {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.64);
+    color: #F8F0E5;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+  }
+#text1 {
+    bottom: 290px;
+    right: 30px;
+    text-align: right;
+}
+#text2 {
+    bottom: 30px;
+    left:30px;
+    width: 330px
+}
+#text3 {
+    bottom: -400px;
+    right: 30px;
+    width: 330px;
+    text-align: right;
+}
+.columns {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    column-count: 3 ;
+    column-gap: 25px;
+    column-rule: 4px;
+    font-size: 18px;
+    word-spacing: 2px;
+    background-color: #DAC0A3;
+    border-radius: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+figcaption{
+    font-family:'ArcadeClassic', sans-serif ;
+    display: contents;
+    font-size: 20px;
+}
+.columns h2 {
+    font-family:'Press Start 2P';
+    font-size: 25px;
+    display:-webkit-inline-flex;
+    background-color: #0F2C59;
+    color: #F8F0E5;
+    padding: 8px;
+}
+#source {
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 30px;
+    color: goldenrod;
+    letter-spacing: 2px;
+    display: contents;
+}
